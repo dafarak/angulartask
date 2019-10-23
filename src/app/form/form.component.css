@@ -1,0 +1,15 @@
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+
+  /* .divtext {
+    
+    width: 70%;
+    height: 200px;
+    border: 3px solid rgb(20, 20, 20);
+  }  */
+  .button-1{
+background-color: blue;
+color: white;
+  }
+  

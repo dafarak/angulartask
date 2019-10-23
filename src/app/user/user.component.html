@@ -1,0 +1,48 @@
+
+    <div class="row">
+     
+      <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 Divtop">
+
+      <table class="table table-striped ">
+            <thead>
+            <tr class="tablecss"> 
+              <!-- <th class="hidden">Id</th> -->
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Gender</th>
+              <th>view</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+         <!-- <tr>
+           <td>{{price}} </td>
+         </tr> -->
+              <tr >
+              <td >{{fname}}</td>
+              <td>{{lname}}</td>
+              <td>{{text}}</td>
+              <td><button type="button"  (click)="viewpage()" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" d="M0 0h24v24H0V0z"/>
+                <path d="M12 6c3.79 0 7.17 2.13 8.82 5.5C19.17 14.87 15.79 17 12 17s-7.17-2.13-8.82-5.5C4.83 8.13 8.21 6 12 6m0-2C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 5c1.38 0 2.5 1.12 2.5 2.5S13.38 14 12 14s-2.5-1.12-2.5-2.5S10.62 9 12 9m0-2c-2.48 0-4.5 2.02-4.5 4.5S9.52 16 12 16s4.5-2.02 4.5-4.5S14.48 7 12 7z"/>
+              </svg></button>
+              </td>
+              <td> <button type="button"  (click)="edit()" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" d="M0 0h24v24H0V0z"/>
+                <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM5.92 19H5v-.92l9.06-9.06.92.92L5.92 19zM20.71 5.63l-2.34-2.34c-.2-.2-.45-.29-.71-.29s-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41z"/>
+              </svg></button></td>
+              <td ><button type="button"  (click)="delete()" ><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" d="M0 0h24v24H0V0z"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+              </svg></button></td>
+              
+            </tr> 
+            </tbody>
+          </table>
+    </div>
+</div>
+
+
+<!-- start toggel -->
+
+<!-- end toggel -->
